@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home - CAF Assistance</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Small extra styles for team showcase */
+    .team {
+      padding: 3rem 0;
+      text-align: center;
+    }
+    .team h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .team-list {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .team-member {
+      max-width: 220px;
+      background: #f4f4f4;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .team-member img {
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    .team-member h3 {
+      margin: 0.5rem 0 0.25rem;
+      font-size: 1.2rem;
+      color: #002b5e;
+    }
+    .team-member p {
+      margin: 0;
+      font-size: 1rem;
+      color: #555;
+    }
+    /* Style for the intro text between team members */
+    .team-intro {
+      flex-basis: 100%;
+      margin: 2rem 0;
+      font-style: italic;
+      color: #333;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><a href="index.html" class="home-link">CAF Assistance</a></h1>
+      <nav class="main-nav">
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Servizi ▾</a>
+          <div class="dropdown-content">
+            <a href="730.html">730 e Dichiarazioni</a>
+            <a href="isee.html">ISEE e Bonus</a>
+            <a href="pensioni.html">Pensioni</a>
+            <a href="successioni.html">Successioni</a>
+            <a href="comunali.html">Pratiche Comunali</a>
+          </div>
+        </div>
+        <a href="chi-siamo.html">Chi Siamo</a>
+        <a href="contatti.html">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container hero">
+    <h2>Benvenuti a CAF Assistance</h2>
+    <p>Il tuo punto di riferimento per assistenza fiscale e servizi amministrativi chiari e affidabili.</p>
+  </section>
+
+  <section class="container team">
+  <h2>Il nostro team</h2>
+  <div class="team-list" style="justify-content: center; align-items: center;">
+    <!-- Left team member -->
+    <div class="team-member" style="flex: 1 1 220px; max-width: 220px; text-align: center;">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Maria Rossi" />
+      <h3>Maria Rossi</h3>
+      <p>Consulente Fiscale</p>
+    </div>
+
+    <!-- Intro text centered between -->
+    <div style="flex: 1 1 300px; max-width: 300px; margin: 0 2rem; text-align: center; font-style: italic; color: #333; font-size: 1.1rem;">
+      <p>La nostra squadra di consulenti è dedicata a offrirti assistenza fiscale professionale e personalizzata, con attenzione e competenza.</p>
+    </div>
+
+    <!-- Right team member -->
+    <div class="team-member" style="flex: 1 1 220px; max-width: 220px; text-align: center;">
+      <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Elena Verdi" />
+      <h3>Elena Verdi</h3>
+      <p>Consulente Amministrativa</p>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 CAF Assistance - Tutti i diritti riservati</p>
+    </div>
+  </footer>
+</body>
+</html>
